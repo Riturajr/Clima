@@ -24,12 +24,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBAction func searchPressed(_ sender: UIButton) {
         searchtextField.endEditing(true)
-        print(searchtextField.text!)
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         searchtextField.endEditing(true)
-        print(searchtextField.text!)
         return true
     }
     
